@@ -52,6 +52,7 @@
      <Compile Include="Assets\Script\Drag\DragStruk.cs" />
      <Compile Include="Assets\Script\Drag\DragTabel.cs" />
      <Compile Include="Assets\Script\LoadScene.cs" />
+     <Compile Include="Assets\Script\NilaiPostest.cs" />
      <Compile Include="Assets\Script\NilaiPretest.cs" />
      <Compile Include="Assets\Script\Pilih_Manager.cs" />
      <Compile Include="Assets\Script\PlayerAct.cs" />
@@ -70,6 +71,7 @@
      <Compile Include="Assets\Script\kontrolJalan.cs" />
      <Compile Include="Assets\Script\kontrolKamera.cs" />
      <Compile Include="Assets\Script\playerMovement.cs" />
+     <Compile Include="Assets\Script\trackVideo.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />

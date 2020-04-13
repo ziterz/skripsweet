@@ -9,13 +9,13 @@ public class NilaiPretest : MonoBehaviour
     public TMP_Text nilai;
     public void OnSubmit()
     {
-        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 5);
+        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
     }
 
     public void OnFinishCorrect()
     {
        /* timerText.gameObject.SetActive(false);*/
-        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 5);
+        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
         nilai.text = PlayerPrefs.GetInt("Pretest").ToString();
     }
 
