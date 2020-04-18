@@ -45,9 +45,15 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Script\Drag\DragAlter1.cs" />
+     <Compile Include="Assets\Script\Drag\DragAlter2.cs" />
+     <Compile Include="Assets\Script\Drag\DragAtribut.cs" />
+     <Compile Include="Assets\Script\Drag\DragCreate.cs" />
+     <Compile Include="Assets\Script\Drag\DragDrop.cs" />
      <Compile Include="Assets\Script\Drag\DragEntitas.cs" />
      <Compile Include="Assets\Script\Drag\DragPerpus.cs" />
      <Compile Include="Assets\Script\Drag\DragRelasi.cs" />
+     <Compile Include="Assets\Script\Drag\DragRelasiTutorial.cs" />
      <Compile Include="Assets\Script\Drag\DragRumah.cs" />
      <Compile Include="Assets\Script\Drag\DragStruk.cs" />
      <Compile Include="Assets\Script\Drag\DragTabel.cs" />
@@ -60,14 +66,27 @@
      <Compile Include="Assets\Script\SetUsername.cs" />
      <Compile Include="Assets\Script\SetandGet.cs" />
      <Compile Include="Assets\Script\itemSlot.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanAlter1.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanAlter2.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanAtribut.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanCreate.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanCreate2.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanDrop.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanDrop2.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanKardinalitas1.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanKardinalitas2.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanRecord.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanRelasi.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanRelasiTutorial.cs" />
+     <Compile Include="Assets\Script\jawaban\Jawabanmanytomany.cs" />
+     <Compile Include="Assets\Script\jawaban\Jawabanmanytone.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanEntitas.cs" />
+     <Compile Include="Assets\Script\jawaban\jawabanEntitasTutorial.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanPerpus.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanRumah.cs" />
+     <Compile Include="Assets\Script\jawaban\jawabanSimbol.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanStruk.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanTabel.cs" />
-     <Compile Include="Assets\Script\karakter.cs" />
      <Compile Include="Assets\Script\kontrolJalan.cs" />
      <Compile Include="Assets\Script\kontrolKamera.cs" />
      <Compile Include="Assets\Script\playerMovement.cs" />

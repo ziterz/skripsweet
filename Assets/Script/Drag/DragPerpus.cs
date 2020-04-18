@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class DragPerpus : MonoBehaviour, IDragHandler, IEndDragHandler 
 {
 
-    public GameObject item1, item2, item3, item4,item5, item6, item7, item8, dragObject, target1, target2, target3,target4,target5,target6, target7, target8, benar, salah, lanjutkan;
+    public GameObject item1, item2, item3, item4,item5, item6, dragObject, target1, target2, target3,target4,target5,target6, target7, target8, benar, salah, lanjutkan;
     Vector3 startpos, startpos1, startpos2, startpos3, startpos4, startpos5, startpos6, startpos7, startpos8;
 
     // Start is called before the first frame update
@@ -19,8 +19,6 @@ public class DragPerpus : MonoBehaviour, IDragHandler, IEndDragHandler
         startpos4 = item4.transform.position;
         startpos5 = item5.transform.position;
         startpos6 = item6.transform.position;
-        startpos7 = item7.transform.position;
-        startpos8 = item8.transform.position;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -59,12 +57,6 @@ public class DragPerpus : MonoBehaviour, IDragHandler, IEndDragHandler
             }
             else if (item6.transform.position == target1.transform.position) {
                 item6Back();
-            }
-            else if (item6.transform.position == target1.transform.position) {
-                item7Back();
-            }
-            else if (item6.transform.position == target1.transform.position) {
-                item8Back();
             }
             dragObject.transform.position = target1.transform.position;
         }
@@ -255,13 +247,4 @@ public class DragPerpus : MonoBehaviour, IDragHandler, IEndDragHandler
 		item6.transform.position = startpos6;
 	}
 
-    void item7Back()
-	{
-		item6.transform.position = startpos6;
-	}
-
-    void item8Back()
-	{
-		item6.transform.position = startpos6;
-	}
 }
