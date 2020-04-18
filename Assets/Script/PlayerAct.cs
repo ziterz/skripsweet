@@ -9,7 +9,8 @@ public class PlayerAct : MonoBehaviour {
     
     // Start is called before the first frame update
     void Start() {
-        x = PlayerPrefs.GetInt("x");
+        x = -5;
+        // x = PlayerPrefs.GetInt("x");
         transform.position = new Vector3(x, -3, -2);
 
         scaleX = transform.localScale.x;
