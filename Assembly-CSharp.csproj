@@ -73,11 +73,16 @@
      <Compile Include="Assets\Script\jawaban\JawabanCreate2.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanDrop.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanDrop2.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanInsert.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanInsertTidak.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanKardinalitas1.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanKardinalitas2.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanRecord.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanRelasi.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanRelasiTutorial.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanSelect.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanSelectBetween.cs" />
+     <Compile Include="Assets\Script\jawaban\JawabanSelectertentu.cs" />
      <Compile Include="Assets\Script\jawaban\Jawabanmanytomany.cs" />
      <Compile Include="Assets\Script\jawaban\Jawabanmanytone.cs" />
      <Compile Include="Assets\Script\jawaban\jawabanEntitas.cs" />
