@@ -67,6 +67,7 @@
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\SetUsername.cs" />
      <Compile Include="Assets\Script\SetandGet.cs" />
+     <Compile Include="Assets\Script\TypeWriteEffect.cs" />
      <Compile Include="Assets\Script\itemSlot.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanAlter1.cs" />
      <Compile Include="Assets\Script\jawaban\JawabanAlter2.cs" />

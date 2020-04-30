@@ -113,6 +113,8 @@ public class jawabanRumah : MonoBehaviour
         }
     }
 
+    
+
     void actionBenar()
 	{
 		benar.gameObject.SetActive(true);
