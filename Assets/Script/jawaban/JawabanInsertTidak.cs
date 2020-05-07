@@ -7,18 +7,18 @@ using TMPro;
 public class JawabanInsertTidak : MonoBehaviour
 {
     public GameObject benar, salah, lanjutkan, cek;
-    public TMP_InputField field1, field2, field3, field4, field5;
+    public TMP_InputField field1, field2, field4, field5;
     public AudioSource correct, incorrect;
 
     public void OnCek()
 	{
-        if(field1.text.Equals("insert into") && field2.text.Equals("ekstrakurikuler") && field3.text.Equals("values")&& field4.text.Equals("(idEkskul, namaEkskul, hari)")&& field5.text.Equals("('EK001','Teater','Rabu');"))
+        if(field1.text.Equals("insert into") && field2.text.Equals("ekstrakurikuler") && field4.text.Equals("(idEkskul, namaEkskul, hari)")&& field5.text.Equals("('EK001','Teater','Rabu');"))
         {
           /*  correct.Play(0);*/
             actionBenar();
             cek.SetActive(false);
             lanjutkan.SetActive(true);
-        } else  if(field1.text.Equals("Insert into") && field2.text.Equals("Guru") && field3.text.Equals("Values") && field4.text.Equals("(idEkskul, namaEkskul, hari)")&& field5.text.Equals("('EK001','Teater','Rabu');"))
+        } else  if(field1.text.Equals("Insert into") && field2.text.Equals("ekstrakurikuler") && field4.text.Equals("(idEkskul, namaEkskul, hari)")&& field5.text.Equals("('EK001','Teater','Rabu');"))
         {
           /*  correct.Play(0);*/
             actionBenar();

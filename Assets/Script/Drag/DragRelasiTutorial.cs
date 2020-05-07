@@ -6,7 +6,7 @@ using UnityEngine.EventSystems;
 public class DragRelasiTutorial : MonoBehaviour, IDragHandler, IEndDragHandler 
 {
 
-    public GameObject item1, item2, item3, item4,item5,dragObject, target1, target2;
+    public GameObject item1, item2, item3, item4, item5,dragObject, target1, target2;
     Vector3 startpos, startpos1, startpos2,startpos3,startpos4,startpos5;
 
     // Start is called before the first frame update

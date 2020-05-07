@@ -7,18 +7,18 @@ using TMPro;
 public class JawabanInsert : MonoBehaviour
 {
     public GameObject benar, salah, lanjutkan, cek;
-    public TMP_InputField field1, field2, field3, field4;
+    public TMP_InputField field2, field3, field4;
     public AudioSource correct, incorrect;
 
     public void OnCek()
 	{
-        if(field1.text.Equals("insert into") && field2.text.Equals("guru") && field3.text.Equals("values")&& field4.text.Equals("('DS976','herni rosiany','sarijadi baru');"))
+        if( field2.text.Equals("guru") && field3.text.Equals("values")&& field4.text.Equals("('DS976','herni rosiany','sarijadi baru');"))
         {
           /*  correct.Play(0);*/
             actionBenar();
             cek.SetActive(false);
             lanjutkan.SetActive(true);
-        } else  if(field1.text.Equals("Insert into") && field2.text.Equals("Guru") && field3.text.Equals("Values")&& field4.text.Equals("('DS976','herni rosiany','sarijadi baru'');"))
+        } else  if(field2.text.Equals("Guru") && field3.text.Equals("Values")&& field4.text.Equals("('DS976','herni rosiany','sarijadi baru'');"))
         {
           /*  correct.Play(0);*/
             actionBenar();
