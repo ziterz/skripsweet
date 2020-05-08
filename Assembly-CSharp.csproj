@@ -45,6 +45,18 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\OverTheShoulderAim\ActivateOnKeypress.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Scripting\ScriptingExample.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Scenes\Trigger volumes\GenericTrigger.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Models\UnityCharacter\Scripts\CharacterMovement2D.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\ActivateCamOnPlay.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\ActivateCameraWithDistance.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\ExampleHelpWindow.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\MixingCameraBlend.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
+     <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
      <Compile Include="Assets\Script\Drag\DragAlter1.cs" />
      <Compile Include="Assets\Script\Drag\DragAlter2.cs" />
      <Compile Include="Assets\Script\Drag\DragAtribut.cs" />
@@ -60,6 +72,7 @@
      <Compile Include="Assets\Script\Drag\DragStruk.cs" />
      <Compile Include="Assets\Script\Drag\DragTabel.cs" />
      <Compile Include="Assets\Script\Drag\DragUpdate.cs" />
+     <Compile Include="Assets\Script\KarakterGerak.cs" />
      <Compile Include="Assets\Script\LoadScene.cs" />
      <Compile Include="Assets\Script\LockUnlock2.cs" />
      <Compile Include="Assets\Script\LockUnlockLevel.cs" />
@@ -70,6 +83,8 @@
      <Compile Include="Assets\Script\Quit.cs" />
      <Compile Include="Assets\Script\SetUsername.cs" />
      <Compile Include="Assets\Script\SetandGet.cs" />
+     <Compile Include="Assets\Script\camerafollow.cs" />
+     <Compile Include="Assets\Script\camerafollow2.cs" />
      <Compile Include="Assets\Script\itemSlot.cs" />
      <Compile Include="Assets\Script\jawaban\IsianJawabanAtribut.cs" />
      <Compile Include="Assets\Script\jawaban\IsianJawabanDelete2.cs" />
@@ -748,6 +763,14 @@
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{65adb993-2f11-6d13-dcac-20d8b25f86c9}</Project>
       <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="Cinemachine.csproj">
+      <Project>{e5d52f86-ec69-346f-d25d-5d1cf8c39ec8}</Project>
+      <Name>Cinemachine</Name>
+    </ProjectReference>
+    <ProjectReference Include="com.unity.cinemachine.editor.csproj">
+      <Project>{62c1c0c4-40c0-9473-498e-7380d6bede56}</Project>
+      <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
