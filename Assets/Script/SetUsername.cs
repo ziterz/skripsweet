@@ -14,6 +14,7 @@ public class SetUsername : MonoBehaviour
         PlayerPrefs.SetInt("Level", 0);
         PlayerPrefs.SetInt("Intro", 1);
         PlayerPrefs.SetInt("ShowPretest", 1);
+        PlayerPrefs.SetInt("mainLevel", 0);
         PlayerPrefs.SetInt("LevelERD", 0);
         PlayerPrefs.SetInt("LevelDDL", 0);
         PlayerPrefs.SetInt("LevelDML", 0);

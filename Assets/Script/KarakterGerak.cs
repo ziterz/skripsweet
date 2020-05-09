@@ -5,7 +5,7 @@ using UnityEngine;
 public class KarakterGerak : MonoBehaviour
 {
 
-    public int kecepatan,kekuatanLompat;
+    public int kecepatan;
     
     // balik badan
     public bool balik;
