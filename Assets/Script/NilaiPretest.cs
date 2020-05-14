@@ -10,6 +10,7 @@ public class NilaiPretest : MonoBehaviour
     public void OnSubmit()
     {
         PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
+        Debug.Log(PlayerPrefs.GetInt("Pretest"));
     }
 
     public void OnFinishCorrect()
@@ -17,11 +18,13 @@ public class NilaiPretest : MonoBehaviour
        /* timerText.gameObject.SetActive(false);*/
         PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
         nilai.text = PlayerPrefs.GetInt("Pretest").ToString();
+        Debug.Log(PlayerPrefs.GetInt("Pretest"));
     }
 
     public void OnFinishInCorrect()
     {
         /*timerText.gameObject.SetActive(false);*/
         nilai.text = PlayerPrefs.GetInt("Pretest").ToString();
+        Debug.Log(PlayerPrefs.GetInt("Pretest"));
     }
 }
