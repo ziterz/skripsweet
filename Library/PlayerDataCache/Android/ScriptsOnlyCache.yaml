@@ -2,9 +2,16 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - KarakterGerak
+    - KasusScoreKuis
     - LevelMainMenu
     - LoadScene
+    - NilaiKuis
     - TriggerButton
+    - TriggerJawaban
+    - TriggerJawaban2
+    - TriggerJawaban3
+    - TriggerJawaban4
+    - TriggerJawaban5
     - TriggerSoal
     - camerafollow
     - camerafollow2
@@ -22,19 +29,19 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.BaseInput
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.EventTrigger
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -64,8 +71,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 74
       Script: {instanceID: 0}
     - Class: 81
@@ -79,48 +84,62 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11176}
+      Script: {instanceID: 11178}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11208}
     - Class: 114
-      Script: {instanceID: 11932}
+      Script: {instanceID: 11456}
     - Class: 114
-      Script: {instanceID: 11972}
+      Script: {instanceID: 11652}
     - Class: 114
-      Script: {instanceID: 12456}
+      Script: {instanceID: 11940}
     - Class: 114
-      Script: {instanceID: 12478}
+      Script: {instanceID: 11980}
     - Class: 114
-      Script: {instanceID: 12592}
+      Script: {instanceID: 12468}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 12490}
     - Class: 114
-      Script: {instanceID: 12722}
+      Script: {instanceID: 12604}
     - Class: 114
-      Script: {instanceID: 12772}
+      Script: {instanceID: 12610}
     - Class: 114
-      Script: {instanceID: 12788}
+      Script: {instanceID: 12692}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12736}
     - Class: 114
-      Script: {instanceID: 13158}
+      Script: {instanceID: 12786}
     - Class: 114
-      Script: {instanceID: 13370}
+      Script: {instanceID: 12790}
     - Class: 114
-      Script: {instanceID: 13418}
+      Script: {instanceID: 12804}
     - Class: 114
-      Script: {instanceID: 13498}
+      Script: {instanceID: 13052}
     - Class: 114
-      Script: {instanceID: 13578}
+      Script: {instanceID: 13174}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 13218}
     - Class: 114
-      Script: {instanceID: 13658}
+      Script: {instanceID: 13390}
+    - Class: 114
+      Script: {instanceID: 13420}
+    - Class: 114
+      Script: {instanceID: 13442}
+    - Class: 114
+      Script: {instanceID: 13522}
+    - Class: 114
+      Script: {instanceID: 13602}
+    - Class: 114
+      Script: {instanceID: 13652}
+    - Class: 114
+      Script: {instanceID: 13682}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -136,7 +155,68 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
+    Assets/Scenes/KasusScoreAkhir.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 11178}
+    - Class: 114
+      Script: {instanceID: 11456}
+    - Class: 114
+      Script: {instanceID: 11940}
+    - Class: 114
+      Script: {instanceID: 12490}
+    - Class: 114
+      Script: {instanceID: 12786}
+    - Class: 114
+      Script: {instanceID: 13098}
+    - Class: 114
+      Script: {instanceID: 13174}
+    - Class: 114
+      Script: {instanceID: 13442}
+    - Class: 114
+      Script: {instanceID: 13560}
+    - Class: 114
+      Script: {instanceID: 13652}
+    - Class: 114
+      Script: {instanceID: 30834}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
   scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: 03de36ea37341cc24cbbcb8ad62d1b82
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LockLevel
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -155,6 +235,12 @@ ScriptsOnlyBuild:
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
     className: CinemachineStateDrivenCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 6d3af1e12705e6fa56b0d443815bd5e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerJawaban
   - hash:
       serializedVersion: 2
       Hash: 3c08375166df118bd1801438fc36b92f
@@ -185,6 +271,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Jawabanmanytomany
+  - hash:
+      serializedVersion: 2
+      Hash: d753999061f44f197c6e1729bca0f596
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SaveLoad
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -523,6 +615,12 @@ ScriptsOnlyBuild:
     className: Benchmark03
   - hash:
       serializedVersion: 2
+      Hash: 8da8f20cea608e6ce51d001341d2a538
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoalManager
+  - hash:
+      serializedVersion: 2
       Hash: e6f0efd0e20669d577e9d21526b3d3f9
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
@@ -727,6 +825,12 @@ ScriptsOnlyBuild:
     className: SignalTrack
   - hash:
       serializedVersion: 2
+      Hash: 010f2d6368eda789e77c02c52ca6f6a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PeriksaJawaban
+  - hash:
+      serializedVersion: 2
       Hash: bd543bad7f9f6262f10595aadb130d22
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -811,6 +915,12 @@ ScriptsOnlyBuild:
     className: CinemachinePath
   - hash:
       serializedVersion: 2
+      Hash: 8214fdf999f9a0c90a674d6dafce15f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PanelSoal
+  - hash:
+      serializedVersion: 2
       Hash: 03b4b3d6ba5b17b94d8e77412cd8a77f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -887,6 +997,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: IsianJawabanRelasi3
+  - hash:
+      serializedVersion: 2
+      Hash: a972ed2fbf699fb10acc99a26093b8de
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerJawaban5
   - hash:
       serializedVersion: 2
       Hash: e244702e0dc05782229aa524e4d757f5
@@ -995,6 +1111,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 6d3af1e12705e6fa56b0d443815bd5e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerJawaban4
   - hash:
       serializedVersion: 2
       Hash: eeb356fa33eec10332ebc7e468fecb95
@@ -1273,6 +1395,12 @@ ScriptsOnlyBuild:
     className: PlayerMovePhysics
   - hash:
       serializedVersion: 2
+      Hash: 6d3af1e12705e6fa56b0d443815bd5e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerJawaban3
+  - hash:
+      serializedVersion: 2
       Hash: 6ff1c52123c50b3d73f35cd0e2e65dfd
     assemblyName: Cinemachine.dll
     namespaceName: Cinemachine
@@ -1313,6 +1441,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: VertexShakeB
+  - hash:
+      serializedVersion: 2
+      Hash: fd909d6c1efc9ae3c1bfe6a9c49bc220
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SoalBehaviour
   - hash:
       serializedVersion: 2
       Hash: 219ec6059796d8951d2adcd8505d0dc2
@@ -1361,6 +1495,18 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ActivateOnKeypress
+  - hash:
+      serializedVersion: 2
+      Hash: 6d3af1e12705e6fa56b0d443815bd5e7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TriggerJawaban2
+  - hash:
+      serializedVersion: 2
+      Hash: 37c674f54e02a629c780cca711cb0db3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ButtonBehaviour
   - hash:
       serializedVersion: 2
       Hash: e80c1450883443c68d6c2dade213536f
@@ -1579,47 +1725,12 @@ ScriptsOnlyBuild:
     className: PlayableTrack
   - hash:
       serializedVersion: 2
-      Hash: 03de36ea37341cc24cbbcb8ad62d1b82
+      Hash: 29b12a636b9d42cca4de17dcd1d66107
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: LockLevel
-  - hash:
-      serializedVersion: 2
-      Hash: d753999061f44f197c6e1729bca0f596
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SaveLoad
-  - hash:
-      serializedVersion: 2
-      Hash: 8da8f20cea608e6ce51d001341d2a538
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SoalManager
-  - hash:
-      serializedVersion: 2
-      Hash: 010f2d6368eda789e77c02c52ca6f6a4
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PeriksaJawaban
-  - hash:
-      serializedVersion: 2
-      Hash: 8214fdf999f9a0c90a674d6dafce15f7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PanelSoal
-  - hash:
-      serializedVersion: 2
-      Hash: fd909d6c1efc9ae3c1bfe6a9c49bc220
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SoalBehaviour
-  - hash:
-      serializedVersion: 2
-      Hash: 37c674f54e02a629c780cca711cb0db3
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: ButtonBehaviour
+    className: KasusScoreKuis
   platform: 13
   scenePathNames:
   - Assets/Scenes/KasusMenuLevel.unity
+  - Assets/Scenes/KasusScoreAkhir.unity
   playerPath: D:/1 Unity - Skripsi/Skripsi/menuawal.apk

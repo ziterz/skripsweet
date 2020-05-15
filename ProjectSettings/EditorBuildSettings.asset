@@ -5,45 +5,48 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/0 HomeScene.unity
     guid: c1c4f91f081a69a4095cd37ed156b48e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/1 pretest.unity
     guid: a186fa32320d21c44a77c57884c9c682
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/2 kuisioner.unity
     guid: c7a954f4ed579d34c85140d9fdff755a
   - enabled: 1
     path: Assets/Scenes/KasusMenuLevel.unity
     guid: 882dd2b5cfa9ec84a8f2e932cd22340a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KasusLevel1.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KasusLevel2.unity
     guid: b4111ec208c898141b7f092efca3692a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KasusLevel3.unity
     guid: 53fc4e82c43100e43b7456a433f3da9c
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KasusLevel4.unity
     guid: e7f7ecb222a44df43a2fa33db2ab7e32
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/KasusPostest.unity
     guid: 9172a35647232fe468ec808ed4293902
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TutorMenuLevel.unity
     guid: 454f216263ca78646b6f20f06ec5df18
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TutorialLevel1.unity
     guid: a19caf4c7a2847a4eae7ccc58ef7367f
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TutorialLevel2.unity
     guid: 00e185e44394cfc4fac934d92cf9397e
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/TutorialLevel3.unity
     guid: 990f85d0bf562b94383c8848e4cc4a06
+  - enabled: 1
+    path: Assets/Scenes/KasusScoreAkhir.unity
+    guid: 5c051149430aa434cae23f0ab3683077
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

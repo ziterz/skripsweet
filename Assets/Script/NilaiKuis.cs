@@ -10,7 +10,7 @@ public class NilaiKuis : MonoBehaviour
     public AudioSource correct, incorrect;
     public void OnSubmit()
     {
-        PlayerPrefs.SetInt("nilaiKuis", PlayerPrefs.GetInt("nilaiKuis") + 10);
+        PlayerPrefs.SetInt("nilaiKuis", PlayerPrefs.GetInt("nilaiKuis") + 25);
         Debug.Log(PlayerPrefs.GetInt("nilaiKuis"));
     }
 
