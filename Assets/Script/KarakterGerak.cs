@@ -24,7 +24,7 @@ public class KarakterGerak : MonoBehaviour
     
     void Start()
     {
-        // lompat = GetComponent<Rigidbody2D> ();
+        //PlayerPrefs.SetInt("x", -13);
         anim = GetComponent<Animator>();
         x = PlayerPrefs.GetInt("x",-13);
         transform.position = new Vector3(x, -3, -2);
@@ -46,10 +46,6 @@ public class KarakterGerak : MonoBehaviour
 		}else{
             anim.SetBool ("gerak", false);
         }
-
-        // if(Input.GetKey (KeyCode.W)){
-        //     lompat.AddForce(new Vector2(0,kekuatanLompat));
-        // }
 
         if (pindah > 0 && !balik) {
 			balikbadan();

@@ -12,13 +12,13 @@ public class IsianJawabanInsert2 : MonoBehaviour
 
     public void OnCek()
 	{
-        if(field1.text.Equals("insert into pesawatn values ('PS897','Raja Lines');"))
+        if(field1.text.Equals("insert into pesawat values ('PS897','Raja Lines');"))
         {
           /*  correct.Play(0);*/
             actionBenar();
             cek.SetActive(false);
             lanjutkan.SetActive(true);
-        } else  if(field1.text.Equals("insert into pesawatn values ('PS897', 'Raja Lines');"))
+        } else  if(field1.text.Equals("insert into pesawat values ('PS897', 'Raja Lines');"))
         {
           /*  correct.Play(0);*/
             actionBenar();

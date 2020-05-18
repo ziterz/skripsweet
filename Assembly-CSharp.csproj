@@ -58,6 +58,10 @@
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMoveOnSphere.cs" />
      <Compile Include="Assets\Samples\Cinemachine\2.5.0\Cinemachine Example Scenes\Shared\Scripts\PlayerMovePhysics.cs" />
      <Compile Include="Assets\Script\ButtonBehaviour.cs" />
+     <Compile Include="Assets\Script\DDLockUnlock.cs" />
+     <Compile Include="Assets\Script\DDLockUnlock2.cs" />
+     <Compile Include="Assets\Script\DMLockUnlock.cs" />
+     <Compile Include="Assets\Script\DMLockUnlock2.cs" />
      <Compile Include="Assets\Script\Drag\DragAlter1.cs" />
      <Compile Include="Assets\Script\Drag\DragAlter2.cs" />
      <Compile Include="Assets\Script\Drag\DragAtribut.cs" />
@@ -73,9 +77,12 @@
      <Compile Include="Assets\Script\Drag\DragStruk.cs" />
      <Compile Include="Assets\Script\Drag\DragTabel.cs" />
      <Compile Include="Assets\Script\Drag\DragUpdate.cs" />
+     <Compile Include="Assets\Script\ERDLockUnlock.cs" />
+     <Compile Include="Assets\Script\ERDLockUnlock2.cs" />
      <Compile Include="Assets\Script\KarakterGerak.cs" />
      <Compile Include="Assets\Script\KasusScoreKuis.cs" />
      <Compile Include="Assets\Script\LevelMainMenu.cs" />
+     <Compile Include="Assets\Script\LevelMainMenuTutorial.cs" />
      <Compile Include="Assets\Script\LoadScene.cs" />
      <Compile Include="Assets\Script\LockLevel.cs" />
      <Compile Include="Assets\Script\LockUnlock2.cs" />
@@ -107,6 +114,10 @@
      <Compile Include="Assets\Script\TriggerJawaban5.cs" />
      <Compile Include="Assets\Script\TriggerSoal.cs" />
      <Compile Include="Assets\Script\TutorialLevelMainMenu.cs" />
+     <Compile Include="Assets\Script\TutorialNaikLevel1.cs" />
+     <Compile Include="Assets\Script\TutorialNaikLevel2.cs" />
+     <Compile Include="Assets\Script\TutorialNaikLevel3.cs" />
+     <Compile Include="Assets\Script\TutorialNaikLevel4.cs" />
      <Compile Include="Assets\Script\camerafollow.cs" />
      <Compile Include="Assets\Script\camerafollow2.cs" />
      <Compile Include="Assets\Script\itemSlot.cs" />

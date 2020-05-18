@@ -4630,7 +4630,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.49507475, y: 0}
+  m_Offset: {x: -0.4381279, y: 0.08734584}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4641,7 +4641,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.2798505, y: 3.84}
+  m_Size: {x: 0.5757155, y: 4.9785075}
   m_EdgeRadius: 0
 --- !u!1 &654494396
 GameObject:
@@ -9481,7 +9481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0eccd049cea3e874584461c3bd30fab6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelName: KasusPostest
+  levelName: Postest
 --- !u!61 &1184614339
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10222,7 +10222,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.16953461, y: 0}
+  m_Offset: {x: 0.016255915, y: 0.41140562}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -10233,7 +10233,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.35252503, y: 2.29}
+  m_Size: {x: 0.58534205, y: 3.9221315}
   m_EdgeRadius: 0
 --- !u!1 &1412210873
 GameObject:
@@ -15336,7 +15336,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5797114, y: 0}
+  m_Offset: {x: -0.5803114, y: 0.22352183}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -15347,7 +15347,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.71782005, y: 4.41}
+  m_Size: {x: 0.7126858, y: 5.9864187}
   m_EdgeRadius: 0
 --- !u!114 &1919823114
 MonoBehaviour:
