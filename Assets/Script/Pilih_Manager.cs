@@ -8,11 +8,15 @@ public class Pilih_Manager : MonoBehaviour {
 
     public GameObject roti2, roti2X ,roti2cek, susu, susuX ,susucek, jus, jusX ,juscek, cola, colaX ,colacek, coklat, coklatX ,coklatcek, hotdog, hotdogX ,hotdogcek, cake, cakeX ,cakecek;
 
+    public GameObject kasir;
+    public int item;
+
     Vector2 saladahInitialPos,lemonInitialPos,apelInitialPos,selaiInitialPos,rotiInitialPos,roti2InitialPos;
     Vector2 susuInitialPos,jusInitialPos,colaInitialPos,coklatInitialPos,hotdogInitialPos,cakeInitialPos;
 
     // Start is called before the first frame update
     void Start() {
+        PlayerPrefs.SetInt("ceklisitem", 0);
         saladahInitialPos = saladah.transform.position;
         lemonInitialPos = lemon.transform.position;
         apelInitialPos = apel.transform.position;
@@ -32,6 +36,11 @@ public class Pilih_Manager : MonoBehaviour {
         saladah.transform.position = Input.mousePosition;
         saladahX.SetActive(true);
         saladahcek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -40,6 +49,11 @@ public class Pilih_Manager : MonoBehaviour {
         lemon.transform.position = Input.mousePosition;
         lemonX.SetActive(true);
         lemoncek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -48,6 +62,11 @@ public class Pilih_Manager : MonoBehaviour {
         apel.transform.position = Input.mousePosition;
         apelX.SetActive(true);
         apelcek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -56,6 +75,11 @@ public class Pilih_Manager : MonoBehaviour {
         selai.transform.position = Input.mousePosition;
         selaiX.SetActive(true);
         selaicek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -64,6 +88,11 @@ public class Pilih_Manager : MonoBehaviour {
         roti.transform.position = Input.mousePosition;
         rotiX.SetActive(true);
         roticek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -72,6 +101,11 @@ public class Pilih_Manager : MonoBehaviour {
         roti2.transform.position = Input.mousePosition;
         roti2X.SetActive(true);
         roti2cek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -80,6 +114,11 @@ public class Pilih_Manager : MonoBehaviour {
         susu.transform.position = Input.mousePosition;
         susuX.SetActive(true);
         susucek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -88,6 +127,11 @@ public class Pilih_Manager : MonoBehaviour {
         jus.transform.position = Input.mousePosition;
         jusX.SetActive(true);
         juscek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -96,6 +140,11 @@ public class Pilih_Manager : MonoBehaviour {
         cola.transform.position = Input.mousePosition;
         colaX.SetActive(true);
         colacek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -104,6 +153,11 @@ public class Pilih_Manager : MonoBehaviour {
         coklat.transform.position = Input.mousePosition;
         coklatX.SetActive(true);
         coklatcek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -112,6 +166,11 @@ public class Pilih_Manager : MonoBehaviour {
         hotdog.transform.position = Input.mousePosition;
         hotdogX.SetActive(true);
         hotdogcek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
 
@@ -120,9 +179,12 @@ public class Pilih_Manager : MonoBehaviour {
         cake.transform.position = Input.mousePosition;
         cakeX.SetActive(true);
         cakecek.SetActive(true);
+        PlayerPrefs.SetInt("ceklisitem", PlayerPrefs.GetInt("ceklisitem") + 1);
+        Debug.Log(PlayerPrefs.GetInt("ceklisitem"));
+        if(PlayerPrefs.GetInt("ceklisitem") == 12){
+            kasir.SetActive(true);
+        }
         /*score.text = PlayerPrefs.GetInt("skor").ToString();*/
     }
-
-
 
 }
