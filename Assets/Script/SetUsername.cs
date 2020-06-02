@@ -6,7 +6,6 @@ public class SetUsername : MonoBehaviour
     public TMP_InputField nameField;
 
     public GameObject homePanel, namePanel;
-    public GameObject kasus, tutor, mulai;
     
     public void OnSubmit()
     {
@@ -14,13 +13,12 @@ public class SetUsername : MonoBehaviour
         PlayerPrefs.SetString("Username",nameField.text);
         PlayerPrefs.SetInt("Position", 0); 
         PlayerPrefs.SetInt("Level", 0);
-        PlayerPrefs.SetInt("Intro", 1);
+        //PlayerPrefs.SetInt("Intro", 1);
         PlayerPrefs.SetInt("ShowPretest", 1);
         PlayerPrefs.SetInt("Pretest", 0);
+        PlayerPrefs.SetInt("PretestDone", 0);
+        PlayerPrefs.SetInt("KuisionerDone", 0);
         PlayerPrefs.SetInt("Postest", 0);
-        // PlayerPrefs.SetInt("KuisDDL", 0);
-        // PlayerPrefs.SetInt("KuisDML", 0);
-        // PlayerPrefs.SetInt("KuisERD", 0);
         PlayerPrefs.SetInt("nilaiKuis", 0);
         PlayerPrefs.SetInt("mainLevel", 0);
         PlayerPrefs.SetInt("LevelERD", 0);
@@ -36,32 +34,21 @@ public class SetUsername : MonoBehaviour
     {
         homePanel = GameObject.Find("HomePanel");
         namePanel = GameObject.Find("NamePanel");
-        kasus.SetActive(false);
-        tutor.SetActive(false);
-        mulai.SetActive(true);
 
         if(PlayerPrefs.GetInt("ShowPretest") == 1)
         {
             namePanel.gameObject.SetActive(false);
             homePanel.gameObject.SetActive(true);
-            PlayerPrefs.SetInt("ShowPretest", 0);
-
-            if(PlayerPrefs.GetString("Username") != null){
-                if(PlayerPrefs.GetString("GayaBelajar") == "StudiKasus"){
-                    kasus.SetActive(true);
-                    tutor.SetActive(false);
-                    mulai.SetActive(false);
-                } else if(PlayerPrefs.GetString("GayaBelajar") == "Tutorial"){
-                    tutor.SetActive(true);
-                    kasus.SetActive(false);
-                    mulai.SetActive(false); 
-                }
-            }
+           // PlayerPrefs.SetInt("ShowPretest", 0);
         }
         else
         {
             namePanel.gameObject.SetActive(true);
             homePanel.gameObject.SetActive(false);
         }
+    }
+
+    public void Reset(){
+        PlayerPrefs.SetInt("ShowPretest", 1);
     }
 }
