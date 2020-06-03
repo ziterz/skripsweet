@@ -35,7 +35,7 @@ public class LevelMainMenu : MonoBehaviour {
             {
                 SceneManager.LoadScene(levelName);
                 PlayerPrefs.SetInt("mainLevel", PlayerPrefs.GetInt("mainLevel") + 1);
-            }else if (/*PlayerPrefs.GetInt("mainLevel") == 5 &&*/ string.Equals(levelName, "KasusPostest"))
+            }else if (/*PlayerPrefs.GetInt("mainLevel") == 5 &&*/ string.Equals(levelName, "Postest"))
             {
                 SceneManager.LoadScene(levelName);
             }

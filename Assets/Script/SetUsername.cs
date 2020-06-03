@@ -39,7 +39,7 @@ public class SetUsername : MonoBehaviour
         {
             namePanel.gameObject.SetActive(false);
             homePanel.gameObject.SetActive(true);
-           // PlayerPrefs.SetInt("ShowPretest", 0);
+           //PlayerPrefs.SetInt("ShowPretest", 0);
         }
         else
         {

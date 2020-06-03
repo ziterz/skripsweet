@@ -1768,21 +1768,21 @@ MonoBehaviour:
   - soal: Saya sering bertindak tanpa mempertimbangkan konsekuensi yang mungkin terjadi
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: Saya percaya bahwa prosedur dan kebijakan formal membatasi orang.
+  - soal: Saya percaya bahwa prosedur dan kebijakan formal membatasi seseorang dengan
+      orang lain
     type: ACCOMODATOR
     jawabanYa: 0
   - soal: Saya sering menemukan bahwa tindakan berdasarkan perasaan sama kuatnya
-      dengan tindakan berdasarkan pemikiran dan analisis yang cermat.
+      dengan tindakan berdasarkan logika
     type: ACCOMODATOR
     jawabanYa: 0
   - soal: Saya secara aktif mencari pengalaman baru
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: 'Saya lebih tertarik pada novel, ide-ide yang tidak biasa daripada yang
-      umum. '
+  - soal: Saya lebih tertarik pada novel
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: 'Saya berhasil mengatasi tantangan menangani sesuatu yang baru dan berbeda. '
+  - soal: 'Saya berhasil mengatasi tantangan yang baru dan berbeda. '
     type: ACCOMODATOR
     jawabanYa: 0
   - soal: 'Saya menikmati orang-orang spontan yang suka bersenang-senang. '

@@ -9,19 +9,19 @@ public class NilaiPostest : MonoBehaviour
     public TMP_Text nilai;
     public void OnSubmit()
     {
-        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
+        PlayerPrefs.SetInt("Postest", PlayerPrefs.GetInt("Postest") + 10);
     }
 
     public void OnFinishCorrect()
     {
        /* timerText.gameObject.SetActive(false);*/
-        PlayerPrefs.SetInt("Pretest", PlayerPrefs.GetInt("Pretest") + 10);
-        nilai.text = PlayerPrefs.GetInt("Pretest").ToString();
+        PlayerPrefs.SetInt("Postest", PlayerPrefs.GetInt("Postest") + 10);
+        nilai.text = PlayerPrefs.GetInt("Postest").ToString();
     }
 
     public void OnFinishInCorrect()
     {
         /*timerText.gameObject.SetActive(false);*/
-        nilai.text = PlayerPrefs.GetInt("Pretest").ToString();
+        nilai.text = PlayerPrefs.GetInt("Postest").ToString();
     }
 }
