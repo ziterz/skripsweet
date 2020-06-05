@@ -39,11 +39,11 @@ public class SaveLoad : MonoBehaviour
 
     //Logistic Regression nya disini
     public int LogisticRegression(List<int> recordedHasil){
-        jumlahCoba++; // jumlah iterasi
+        jumlahCoba++; // jumlah iterasi satu anak nyoba mengisi
         PlayerPrefs.SetInt("coba",jumlahCoba);
         float angka,angka2;
         for(int i =0;i<savedHasil.Count;i++){
-             angka = (savedHasil[i] + recordedHasil[i]);
+            angka = (savedHasil[i] + recordedHasil[i]);
             temp.Add(angka);
         }
 

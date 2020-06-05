@@ -1785,10 +1785,10 @@ MonoBehaviour:
   - soal: 'Saya berhasil mengatasi tantangan yang baru dan berbeda. '
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: 'Saya menikmati orang-orang spontan yang suka bersenang-senang. '
+  - soal: Saya menyukai orang-orang spontan
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: 'Saya cenderung terbuka tentang perasaan saya. '
+  - soal: Saya cenderung terbuka tentang perasaan saya kepada orang lain
     type: ACCOMODATOR
     jawabanYa: 0
   - soal: 'Saya lebih suka spontan, fleksibel daripada merencanakan sesuatu terlebih
@@ -1799,70 +1799,63 @@ MonoBehaviour:
       nyaman.
     type: ACCOMODATOR
     jawabanYa: 0
-  - soal: Saya suka jenis pekerjaan di mana saya punya waktu untuk persiapan dan
-      implementasi yang menyeluruh.
+  - soal: Saya suka jenis pekerjaan di mana saya punya waktu untuk mempersiapkan
+      segala halnya
     type: DIVERGER
     jawabanYa: 0
-  - soal: Saya bangga melakukan pekerjaan yang menyeluruh.
+  - soal: Saya bangga melakukan pekerjaan yang dilakukan secara maksimal.
     type: DIVERGER
     jawabanYa: 0
-  - soal: Saya berhati-hati dalam menginterpretasikan data dan menghindari kesimpulan.
+  - soal: Saya berhati-hati dalam menyimpulkan informasi
     type: DIVERGER
     jawabanYa: 0
-  - soal: 'Saya suka mengambil keputusan dengan hati-hati setelah mempertimbangkan
-      banyak alternatif. '
+  - soal: 'Saya suka mengambil keputusan dengan hati-hati '
     type: DIVERGER
     jawabanYa: 0
-  - soal: 'Saya memperhatikan detail dengan cermat sebelum sampai pada suatu kesimpulan. '
+  - soal: Saya memperhatikan sesuatu secara detail sebelum menyimpulkan
     type: DIVERGER
     jawabanYa: 0
   - soal: 'Saya berhati-hati untuk tidak terlalu cepat menarik kesimpulan. '
     type: DIVERGER
     jawabanYa: 0
-  - soal: 'Saya lebih suka memiliki sumber informasi sebanyak mungkin - semakin banyak
-      informasi yang dipikirkan semakin baik. '
+  - soal: Saya lebih suka mencari sumber informasi sebanyak mungkin
     type: DIVERGER
     jawabanYa: 0
   - soal: 'Saya mendengarkan sudut pandang orang lain sebelum mengedepankan pandangan
       saya sendiri. '
     type: DIVERGER
     jawabanYa: 0
-  - soal: 'Dalam diskusi, saya menikmati menonton perencanaan dan perencanaan peserta
-      lain. '
+  - soal: Dalam diskusi, saya menyukai perencaan dengan jelas
     type: DIVERGER
     jawabanYa: 0
-  - soal: Saya khawatir jika saya harus buru-buru bekerja untuk memenuhi tenggat
-      waktu yang ketat.
+  - soal: Saya khawatir jika saya harus terburu-buru melakukan hal mendekati waktu
+      akhir
     type: DIVERGER
     jawabanYa: 0
   - soal: Saya memiliki keyakinan kuat tentang apa yang benar dan salah, baik dan
       buruk.
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: Saya cenderung menyelesaikan masalah menggunakan pendekatan langkah demi
-      langkah.
+  - soal: Saya cenderung menyelesaikan masalah langkah demi langkah.
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: Saya secara rutin menanyai orang-orang tentang asumsi dasar mereka.
+  - soal: Saya suka menanyakan asumsi dari tiap-tiap orang
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: Saya tertarik pada disiplin diri seperti menonton diet, berolahraga teratur,
-      tetap pada rutinitas yang sudah ditentukan, dll.
+  - soal: Saya menyukai hal-hal yang terorganisir dan sudah ditentukan diawal
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: Saya bergaul dengan orang-orang yang logis dan analitis dan kurang baik
+  - soal: Saya bergaul dengan orang-orang yang logis dan analitis dan kurang nyaman
       dengan orang-orang yang spontan dan irasional.
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: 'Saya tidak suka hal-hal yang tidak teratur dan lebih suka menyesuaikan
-      hal-hal menjadi pola yang koheren. '
+  - soal: Saya tidak suka hal-hal yang tidak teratur
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: 'Saya suka menghubungkan tindakan saya dengan prinsip umum, standar atau
-      kepercayaan. '
+  - soal: 'Saya suka menghubungkan tindakan saya dengan standar yang umum '
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: 'Saya cenderung memiliki hubungan yang jauh, agak formal dengan orang-orang
+  - soal: 'Saya cenderung memiliki hubungan yang jauh dan agak formal dengan orang-orang
       di tempat kerja. '
     type: ASSIMILATOR
     jawabanYa: 0
@@ -1873,32 +1866,30 @@ MonoBehaviour:
       serius biasanya membuat saya jengkel. '
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: Saya memiliki reputasi untuk mengatakan apa yang saya pikirkan, sederhana
-      dan langsung.
+  - soal: Saya menyukai mengatakan apa yang saya pikirkan, sederhana dan langsung.
     type: CONVERGER
     jawabanYa: 0
-  - soal: Ketika saya mendengar tentang ide atau pendekatan baru, saya segera mulai
-      mencari cara untuk menerapkannya dalam praktik
+  - soal: Jika ada hal/ide baru, saya langsung memikirkan penerapan secara praktik
     type: CONVERGER
     jawabanYa: 0
   - soal: 'Saya menerima dan tetap berpegang pada prosedur dan kebijakan yang ditetapkan
       selama saya menganggapnya sebagai cara yang efisien untuk menyelesaikan pekerjaan. '
     type: CONVERGER
     jawabanYa: 0
-  - soal: 'Dalam diskusi, saya suka langsung ke intinya. '
+  - soal: Dalam diskusi, saya menyukai pembahasan yang langsung kepada intinya
     type: CONVERGER
     jawabanYa: 0
-  - soal: Saya cenderung menilai ide orang berdasarkan kemampuan praktisnya.
+  - soal: Saya cenderung menilai ide orang berdasarkan kemampuan praktiknya
     type: CONVERGER
     jawabanYa: 0
-  - soal: Saya sering bisa melihat cara yang lebih baik dan lebih praktis untuk menyelesaikan
-      sesuatu.
+  - soal: Saya sering bisa melihat cara lebih praktis untuk menyelesaikan sesuatu.
     type: CONVERGER
     jawabanYa: 0
-  - soal: Saya pikir laporan tertulis harus singkat dan to the point.
+  - soal: Saya memiliki pandangan bahwa laporan tertulis harus singkat dan to the
+      point.
     type: CONVERGER
     jawabanYa: 0
-  - soal: Saya cenderung menolak ide-ide liar dan spontan sebagai tidak praktis.
+  - soal: Saya cenderung menolak ide-ide liar dan spontan yang tidak praktis
     type: CONVERGER
     jawabanYa: 0
   - soal: Saya tidak keberatan melukai perasaan orang lain selama pekerjaan itu selesai.
