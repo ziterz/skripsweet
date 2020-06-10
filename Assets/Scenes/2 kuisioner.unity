@@ -1855,8 +1855,8 @@ MonoBehaviour:
   - soal: 'Saya suka menghubungkan tindakan saya dengan standar yang umum '
     type: ASSIMILATOR
     jawabanYa: 0
-  - soal: 'Saya cenderung memiliki hubungan yang jauh dan agak formal dengan orang-orang
-      di tempat kerja. '
+  - soal: Saya cenderung memiliki hubungan yang jauh dan agak formal dengan orang
+      lain
     type: ASSIMILATOR
     jawabanYa: 0
   - soal: 'Saya merasa sulit untuk menghasilkan ide berdasarkan dorongan hati. '
@@ -1879,7 +1879,7 @@ MonoBehaviour:
   - soal: Dalam diskusi, saya menyukai pembahasan yang langsung kepada intinya
     type: CONVERGER
     jawabanYa: 0
-  - soal: Saya cenderung menilai ide orang berdasarkan kemampuan praktiknya
+  - soal: Saya cenderung menilai ide orang berdasarkan kemampuan praktis tidaknya
     type: CONVERGER
     jawabanYa: 0
   - soal: Saya sering bisa melihat cara lebih praktis untuk menyelesaikan sesuatu.
